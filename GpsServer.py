@@ -32,7 +32,7 @@ sys.path.insert(0, './interfaces/python')
 import tools
 
 
-#os.system('sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock')
+os.system('sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock')
 
 
 class GpsPoller(threading.Thread):
